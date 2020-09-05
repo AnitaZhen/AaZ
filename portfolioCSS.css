@@ -1,0 +1,96 @@
+/* color link */
+a:link,
+a:visited {
+color: black;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover,
+a:active {
+background-color: white;
+}
+/* social media icon */
+.fa {
+padding: 10px;
+font-size: 20px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 3px 2px;
+}
+
+.fa-linkedin {
+color: #007bb5;
+}
+
+.fa-github {
+color: black;
+}
+
+.fa-facebook-official {
+color: #3B5998;
+}
+
+.fa-instagram {
+color: purple;
+}
+
+
+.container {
+position: relative;
+font-family: Arial;
+}
+/* text */
+.text-block {
+position: absolute;
+bottom: 20px;
+right: 20px;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+/* center */
+.center {
+text-align: center;
+}
+
+/* center image */
+.image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.image1 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+
+.avatar {
+width: 751px;
+height: 751px;
+border-radius: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image2 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+
+/* footer */
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}

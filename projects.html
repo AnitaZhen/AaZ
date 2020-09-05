@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AaZ Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <!-- CSS Format -->
+  <link rel="stylesheet" type="text/css" href="projectCSS.css" media="screen" />
+</head>
+
+<!-- windows -->
+<link rel="shortcut icon" href="photos/favicon.ico">
+<!-- apple -->
+<link rel="apple-touch-icon" href="photos/favicon.png">
+<!-- android -->
+<link rel="icon" size="192x192" href="photos/favicon.png">
+
+<body>
+  <!-- navigation bar -->
+  <!-- HOMEPAGE -->
+  <nav class="navbar navbar-expand-md navbar bg">
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="index.html">
+        <img src="photos/A.jpg" alt="A" style="width:45%;min-height:80px;max-height:80px; border-radius: 50%;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <!-- right icon -->
+    <div class="navbar-collapse collapse w-100 order-0 dual-collapse0">
+      <ul class="navbar-nav ml-auto">
+        <li class="about.html">
+          <button onclick="aboutPage()" class="btn">About</button>
+        </li>
+        <script>
+          function aboutPage() {
+            location.replace("about.html")
+          }
+        </script>
+        <li class="projects.html">
+          <button onclick="projectsPage()" class="btn">Projects</button>
+        </li>
+        <script>
+          function projectsPage() {
+            location.replace("projects.html")
+          }
+        </script>
+        <li class="contact.html">
+          <button onclick="contactPage()" class="btn">Contact</button>
+        </li>
+        <script>
+          function contactPage() {
+            location.replace("contact.html")
+          }
+        </script>
+
+        <!-- social media -->
+        <a href="https://www.linkedin.com/in/anita-zhen" class="fa fa-linkedin"></a>
+        <a href="https://www.github.com/AnitaZhen" class="fa fa-github"></a>
+        <a href="https://www.facebook.com/anita.zhen.50/" class="fa fa-facebook-official"></a>
+        <a href="https://www.instagram.com/aneeeedaa/" class="fa fa-instagram"></a>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- end of navigation bar ... STARTING Project category -->
+  <h2 style="text-align:center">PROJECTS</h2>
+  <div class="image">
+    <img src="photos/inspectocat.png" alt="inspectoCat" class="image">
+  </div><br>
+  <!-- Portfolio Gallery Grid -->
+  <!-- StockOverflow -->
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="photos/stockoverflow.jpg" alt="StockOverflow" style="width:100%">
+        <h3 style="text-align:center">StockOverflow</h3>
+        <p>Designed and monitored the back-end for uploading and sharing original free images. </p>
+        <p>I benefited from this project by able to experience with full SW development lifecycle starting
+          from very basic requirements gathering. I learned how projects are divided to milestones and the
+          differences between front-end vs back-end team.</p>
+        <p><b>(LANGUAGES USED:</b><i> JS, Bootstrap, HTML;</i><b>)</b></p>
+        <p><b>(FRAMEWORK USED:</b><i> HEROKU, GOOGLE ANALYTICS, NODE.JS/EXPRESS;</i><b>)</b></p>
+        <p style="padding: 20px"><button> <a href="https://csc648-stock-overflow.herokuapp.com"><b>LEARN
+                MORE »</a></b></button></p>
+      </div>
+    </div>
+    <!-- SCANNER -->
+    <div class="column">
+      <div class="content">
+        <img src="photos/scanner.jpg" alt="Scanner" style="width:95%">
+        <h3 style="text-align:center">Scanner Food UI App</h3>
+        <p>A comprehensive platform where user take a receipt and split it evenly</p>
+        <p>I benefited from this project by learning how to propose, design and build
+          an innovative, bold and advanced user intensive project following all best
+          practices and design patterns of modern team-oriented User Centered Design (UCD)
+          process. In addition, I improved my skills in professional GUI development
+          in team setting, including all steps in modern User Centered Design with intense
+          interactions, feedback and focus groups. I used modern SW tools (free, open source)
+          and also practice report writing and demos.</p>
+        <p><b>(FRAMEWORK USED: </b><i>Figma</i><b>)</b></p>
+        <p style="padding: 20px"><button> <a
+              href="https://drive.google.com/drive/folders/13tA6oH5PjeQTCKP0v4C7mhmBN_yVyS3g?usp=sharing"><b>LEARN
+                MORE »</a></b></button></p>
+      </div>
+    </div>
+    <br>
+    <!-- Contact Form -->
+    <div class="column">
+      <div class="content">
+        <img src="photos/form.jpg" alt="Form" style="width:100%">
+        <h3 style="text-align:center">Contact Form</h3>
+        <p>Designed, Implemented, and Tested a WWW registration form. </p>
+        <p>I benefited from this project by building the skills in professional
+          development for the WWW as well as usage of modern UI design patterns
+          and frameworks for GUI development and automated testing.</p>
+        <p><b>(LANGUAGES USED: </b><i> Bootstrap, JS;</i><b>)</b></p>
+        <p><b>(FRAMEWORK USED:</b><i> GOOGLE MAPS API, GOOGLE CAPTCHA; TESTING: SELANIUM;</i><b>)</b></p>
+        <p style="padding: 20px"><button> <a href="https://github.com/AnitaZhen/forms-"><b>LEARN
+                MORE »</a></b></button></p>
+      </div>
+    </div>
+    <!-- Calculator -->
+    <div class="column">
+      <div class="content">
+        <img src="photos/calculator.jpg" alt="Calculator" style="width:100%">
+        <h3 style="text-align:center">Calculator</h3>
+        <p>A simple application that does your calculation</p>
+        <p>I benefited from this project by improving my software development skills
+          by adding new data structures and framework GUI into building this calculator to return
+          different responses </p>
+        <p><b>(LANGUAGES USED:</b><i> Java</i><b>)</b></p>
+        <p style="padding: 20px"><button> <a href="https://github.com/AnitaZhen/calculator"><b>LEARN
+                MORE »</a></b></button></p>
+      </div>
+    </div>
+    <!-- END GRID -->
+    <br>
+  </div>
+  <br>
+
+  <!-- Work Experience -->
+  <div class="sfo">
+    <div class="content">
+      <img src="photos/sfo.jpg" alt="SFO" style="width:100%">
+      <h3 style="text-align:center">SFO</h3>
+      <p>I am a back-end software developer at SFO. I participated in multiple projects,
+        where I learned multiple skill-set to improve passenger satisfaction. Not only I
+        learn new materials everyday but also challenge myself with others. Some projects
+        I was involved with:</p>
+      <p> * Designed and maintained back-end for SFO Temporarily Badge Issuance to enhance
+        the existing application by adding new features to track badges issued to certain
+        applicants at the airport</p>
+      <p> I benefited from this project by learning and improving how to query in JDBC Spring template.</p>
+      <p><b>(LANGUAGES USED:</b><i> Java, SpringBoot, JDBC template, Oracle DB, Tomcat)</i>
+      </p>
+      <p> * Worked on Intent services with AWS Lex to improve serving flight information quickly to
+        passenger through SFO Chatbot - a text messaging platform</p>
+      <p>I benefited from this project by improving RESTFUL API skill-set, learned how Redis work, and how Lex works in
+        human natural languages AI
+      </p>
+      <p><b>(LANGUAGES USED:</b><i> Java, SpringBoot, Kafka, Redis, AWS Lex, Jenkins</i><b>)</b></p>
+      <p> * Designed and maintained back-end services for SFO Meter services to improve operational efficiencies
+        into a comprehensive, modern tool for energy management tracking </p>
+      <p>I benefited from this project by learning and improving my API skill-set and learning how to query in JPA
+        spring.
+      </p>
+      <p><b>(LANGUAGES USED:</b><i> Java, SpringBoot, Jenkins, Docker, JPA Repository</i><b>)</b></p>
+      <p> * Designed and maintained back-end messaging data services using Kafka Sink Connector to sink to Postgres
+        database for Taxi Service using Kubernetes framework.</p>
+      <p> I benefited from this project by learning Kafka and Redis Framework to improve our messaging world. I learn
+        this important framework
+        by learning how to sink to the database and how the API developers use the service for their part in the field.
+        I also learn Redis by seeing how their framework can filter and query to predict the next taxi
+        is next in the queue. </p>
+      <p><b>(LANGUAGES USED:</b><i> Java, Kafka, Redis, SpringBoot, Postgres, AWS Lambda, Jenkins, Docker,
+          New Relic</i><b>)</b></p>
+      <p>* Designed and maintained back-end GeoEvent Streamer service for SFO Wag Brigade project, querying data to ping
+        to their designated AP locations on ArcGis Map</p>
+      <p> I benefited from this project by learning how GeoStreamer works and how ArcGIS is a framework that gives a
+        good stronger
+        layer for user to see the natural root of the campus layout. I learned
+        how to use the geoEvent Streamer to query data onto the map. </p>
+      <p><b>(LANGUAGES USED:</b><i>
+          <b>Frontend:</b> JavaScript, HTML/CSS <b>Backend:</b> Express + React, Node.js</i><b>)</b></p>
+      </p>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    <p>Copyright:<i class="fa fa-copyright"></i>Anita Zhen
+      <a href="https://www.linkedin.com/in/anita-zhen" class="fa fa-linkedin"></a>
+      <a href="https://www.github.com/AnitaZhen" class="fa fa-github" color="white"></a>
+      <a href="https://www.facebook.com/anita.zhen.50/" class="fa fa-facebook-official"></a>
+      <a href="https://www.instagram.com/aneeeedaa/" class="fa fa-instagram"></a>
+    </p>
+  </div>
+</body>
+
+</html>

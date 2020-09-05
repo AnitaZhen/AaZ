@@ -1,0 +1,96 @@
+a:link,
+a:visited {
+
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}
+
+
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+float: left;
+width: 25%;
+}
+
+
+/* Content */
+.content {
+background-color: white;
+padding: 10px;
+}
+
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}
+body  {
+background-image: url("photos/projectsBackground.jpg");
+height: 1000px;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.image {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 43%;
+}
+.sfo {
+  display: block;
+margin-right: auto;
+margin-left: auto;
+width: 50%;
+}

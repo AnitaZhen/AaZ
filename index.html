@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AaZ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <!-- CSS Format -->
+  <link rel="stylesheet" type="text/css" href="portfolioCSS.css" media="screen" />
+
+</head>
+
+<!-- windows -->
+<link rel="shortcut icon" href="photos/favicon.ico">
+<!-- apple -->
+<link rel="apple-touch-icon" href="photos/favicon.png">
+<!-- android -->
+<link rel="icon" size="192x192" href="photos/favicon.png">
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <!-- HOMEPAGE -->
+  <nav class="navbar navbar-expand-md navbar bg">
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="index.html">
+        <img src="photos/A.jpg" alt="A" style="width:45%;min-height:80px;max-height:80px; border-radius: 50%;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <!-- PAGES -->
+    <div class="navbar-collapse collapse w-100 order-0 dual-collapse0">
+      <ul class="navbar-nav ml-auto">
+        <li class="about.html">
+          <button onclick="aboutPage()" class="btn">About</button>
+        </li>
+        <script>
+          function aboutPage() {
+            location.replace("about.html")
+          }
+        </script>
+        <li class="projects.html">
+          <button onclick="projectsPage()" class="btn">Projects</button>
+        </li>
+        <script>
+          function projectsPage() {
+            location.replace("projects.html")
+          }
+        </script>
+        <li class="contact.html">
+          <button onclick="contactPage()" class="btn">Contact</button>
+        </li>
+        <script>
+          function contactPage() {
+            location.replace("contact.html")
+          }
+        </script>
+        <!-- SOCIAL MEDIA -->
+        <a href="https://www.linkedin.com/in/anita-zhen" class="fa fa-linkedin"></a>
+        <a href="https://www.github.com/AnitaZhen" class="fa fa-github"></a>
+        <a href="https://www.facebook.com/anita.zhen.50/" class="fa fa-facebook-official"></a>
+        <a href="https://www.instagram.com/aneeeedaa/" class="fa fa-instagram"></a>
+      </ul>
+    </div>
+  </nav>
+  <!-- END OF NAVIGATION BAR -->
+  <!-- Image Header -->
+  <div class="w3-display-container w3-animate-opacity">
+    <img src="photos/homepage.jpg" alt="sunrise" style="width:100%;min-height:450px;max-height:300px;">
+  </div>
+
+  <!-- About Section -->
+  <br>
+  <h1 style="text-align:center">Introducing - Anita!</h1><br>
+  <p style="padding: 20px">I'm a back-end engineer helping SFO blend modern framework and technology
+    to create remarkable web and mobile applications. I bring a unique combination of technical
+    experitise and UI design into applications. Born and raised in San Francisco Bay Area,
+    I have seen how technology advance in our world. I hope to use these technology and framework
+    for my work distilling highly technical ideas into incredible applications to improve others.
+  <p style="padding: 20px"><button class="w3-button w3-padding-large w3-white w3-border" onclick="aboutPage()"><b>LEARN
+        MORE »</b></button></p>
+  <script>
+    function aboutPage() {
+      location.replace("about.html")
+    }
+  </script>
+
+  <!-- PROJECTS -->
+
+  <h1 style="text-align:center">Check out my projects!</h1><br>
+  <div class="image">
+    <img src="photos/octocat.png" alt="project image" class="image">
+  </div><br>
+  <div class="center">
+    <p><button onclick="projectsPage()" style="text-align:center"><b>Learn more »</b></button></p>
+    <script>
+      function projectsPage() {
+        location.replace("projects.html")
+      }
+    </script>
+  </div>
+
+  <br>
+  <div class="w3-display-container w3-animate-opacity">
+    <img src="photos/homepageFooter.jpg" alt="footer image" style="width:100%;min-height:608px;max-height:488px;">
+  </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="center">
+    <p><button onclick="contactPage()" style="text-align:center"><b>CONTACT ME »</b></button></p>
+    <script>
+      function contactPage() {
+        location.replace("contact.html")
+      }
+    </script>
+  </div>
+
+  <!-- End page content -->
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Copyright: <i class="fa fa-copyright"></i>Anita Zhen
+      <a href="https://www.linkedin.com/in/anita-zhen" class="fa fa-linkedin"></a>
+      <a href="https://www.github.com/AnitaZhen" class="fa fa-github" color="white"></a>
+      <a href="https://www.facebook.com/anita.zhen.50/" class="fa fa-facebook-official"></a>
+      <a href="https://www.instagram.com/aneeeedaa/" class="fa fa-instagram"></a>
+    </p>
+  </div>
+
+</body>
+
+</html>
